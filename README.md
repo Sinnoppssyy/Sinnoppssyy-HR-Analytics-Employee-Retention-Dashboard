@@ -1,11 +1,100 @@
-# DataAnalyst_FullProject
-Tools - Advance Excel,PowerBi,SQL,Tableau
-"Welcome to my data analyst project, where I used a variety of tools to derive insights from employee data and create a comprehensive dashboard for employee retention analysis.
+# 📊 HR Analytics & Employee Retention Dashboard
 
-The project involved working with large datasets from HR records, and I used a variety of tools to extract, transform, and load the data. I leveraged advanced Excel functionalities such as data validation, conditional formatting, and pivot tables to clean and organize the data. I also used SQL to join multiple tables and extract data needed for analysis.
+Welcome to my end-to-end **HR Analytics project**, where I analyze employee retention, attrition patterns, and key HR metrics using **SQL**, **Power BI**, **Tableau**, and **Advanced Excel**. The goal of this project is to help HR teams understand what drives employee turnover and to provide actionable insights to improve retention strategies.
 
-Once the data was organized and cleaned, I used Tableau to create a variety of visualizations such as bar charts, scatter plots, and heat maps to understand the relationships between different employee attributes such as age, gender, department, and job role. This allowed me to identify trends and patterns that were important for employee retention.
+---
 
-Finally, I used Power BI to create a comprehensive dashboard that incorporated all of the insights from the analysis. The dashboard included a variety of metrics such as average monthly income stats, attrition rate, work-life balance, year since last promotion, and working hours by department and job role. The dashboard allowed HR managers to quickly and easily monitor and analyze employee retention data and make informed decisions based on the insights derived from the data.
+## 📌 Project Overview
 
-Overall, this project was an excellent opportunity for me to showcase my skills as a data analyst and use a variety of tools to extract insights from complex datasets. I'm excited to continue exploring these tools and techniques and contribute to the data analysis community. 
+**Objective:**  
+Analyze employee data to understand attrition patterns and support HR decision-making with data-backed insights.
+
+**Business Goals:**
+- Identify departments and roles with high attrition
+- Analyze the impact of promotions, income, and work-life balance on attrition
+- Provide a dashboard to monitor employee-related KPIs
+- Recommend strategies for employee retention
+
+---
+
+## 🧰 Tools & Technologies Used
+
+| Tool        | Purpose                            |
+|-------------|-------------------------------------|
+| SQL         | Data cleaning, joins, aggregations |
+| Power BI    | Dashboard creation and reporting   |
+| Tableau     | Visualization and EDA              |
+| Excel       | Preprocessing and data validation  |
+| Python      | *(Optional - Not used in this project)* |
+
+---
+
+## 🗃️ Dataset Description
+
+The dataset consists of **two main tables**:
+
+- `HR_1.xlsx`: Core employee attributes such as Job Role, Department, Gender, Attrition, etc.
+- `HR_2.xlsx`: Supporting details such as Work Life Balance, Years Since Promotion, Monthly Income, etc.
+
+---
+
+## 📌 Key KPIs & Insights
+
+### 1. **Attrition Rate by Department**
+- Highest in **Research & Development**
+- Lowest in **Hardware**
+
+### 2. **Average Hourly Rate for Male Research Scientists**
+- $114.45 average hourly rate
+
+### 3. **Attrition Rate vs Monthly Income**
+- Inverse relationship: Higher income, lower attrition
+
+### 4. **Average Working Years per Department**
+- Helps gauge experience level of each department
+
+### 5. **Work-Life Balance by Job Role**
+- HR and Support roles rated lower than others
+
+### 6. **Attrition vs Years Since Last Promotion**
+- Higher attrition where promotions are delayed
+
+---
+
+## 📊 Power BI Dashboard
+
+- Visualized KPIs for HR managers
+- Filters: Department, Gender, Years at Company
+- Charts: Heatmaps, Bar Charts, Line Graphs, and Donut Charts
+
+📁 File: `HR_Analytics_Partik.pbix`
+
+---
+
+## 📋 SQL Scripts Used
+
+Included in the repo as `HR_Analytics_SQL_Partik.sql`, with queries for:
+- Aggregated attrition rate
+- Income & promotion correlations
+- Work-life balance analysis
+- Department-level comparisons
+
+---
+
+## 📝 Conclusion
+
+This project highlights how data analytics can support HR departments in identifying pain points related to employee turnover and help make proactive decisions.
+
+---
+
+## 👨‍💻 Author
+
+**Partik Pratihar**  
+📧 partikpratihar@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/partik-pratihar-5310bb237/)  
+🔗 [GitHub](https://github.com/Sinnoppssyy)
+
+---
+
+## 🗂️ Repository Contents
+
